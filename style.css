@@ -1,0 +1,24 @@
+
+body {
+    margin:0;
+    background-image: url("background-1.jpg");
+    background-size: 28%;
+    background-repeat: repeat;
+}
+.my-navbar {
+    background: white;
+    border-radius: 0;
+    border: 0;
+    padding: 20px; 
+}
+
+.name {
+    color: white;
+    background-color: hotpink;
+}
+
+.container {
+    padding: 20px;
+    background-color: white;
+    margin-top: 50px;
+}
