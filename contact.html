@@ -16,41 +16,51 @@
 <body>
     <div class="container bg-white">
             <nav class="navbar width-100 navbar-white bg-white align-self-stretch">
-                        <span class="navbar-brand p-1 name">
+                        <span class="navbar-brand p-1" style="background: powderblue; color:white">
                             <h1>Jenny Liang</h1>
                         </span>
                 <div class="d-flex width-100 align-items-stretch">
-                        <a class="navbar-brand" href="index.html"><p>About Me |</p></a>
-                        <a class="navbar-brand" href="portfolio.html"><p>Portfolio |</p></a>
-                        <a class="navbar-brand" href="contact.html"><p>Contact</p></a>
+                        <a class="navbar-brand" href="index.html"><p style="font-family: 'cookie',cursive; font-size: 30px; color: grey">About Me |</p></a>
+                        <a class="navbar-brand" href="portfolio.html"><p style="font-family: 'cookie',cursive; font-size: 30px; color: grey">Portfolio |</p></a>
+                        <a class="navbar-brand" href="contact.html"><p style="font-family: 'cookie',cursive; color:gray; font-size: 30px">Contact</p></a>
                 </div>
             </nav>
-    </div>    
-
+    </div>
+    
     <div class="container bg-white">
         <div class="row mt-5">
-            <h2 class="header p-4">Contact</h2>
-    </div>
-    <hr>
+            <h2 style="color:powderblue" class="p-4">Contact</h2>
+        </div>
+        <hr style="background-color:#bbb8b8; height:1px;"/>
     
-    <form>
-        <div class="form-group">
-            <label for="exampleInputName">Name</label>
-            <input type="name" class="form-control" id="name" placeholder="John Smith">
-        </div>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Example@gmail.com">
-        </div>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputName">Name</label>
+                <input type="name" class="form-control" id="name" placeholder="John Smith">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Example@gmail.com">
+            </div>
 
-        <div class="form-group">
-            <label for="Message">Message</label>
-            <textarea rows="8" type="text" class="form-control" id="message" placeholder=""></textarea>
-        </div>
+            <div class="form-group">
+                <label for="Message">Message</label>
+                <textarea rows="8" type="text" class="form-control" id="message" placeholder=""></textarea>
+            </div>
 
-        <br><br>
-        <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
-    </form>
+            <br><br>
+            <button type="submit" class="btn m-0" style="background-color:powderblue">Submit</button>
+        </form>
+    </div>
+
+    
+    
+    <div class="footer  fixed-bottom mt-3">
+            <hr style="background-color:powderblue; height:4px;" class="m-0"/>
+        <footer class="text-center bg-secondary p-3">
+            <span class="text-white">copyrigh&copy;</span>
+        </footer>
+    </div>
+
 </body>
 </html>
